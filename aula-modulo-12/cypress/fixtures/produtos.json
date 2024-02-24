@@ -1,0 +1,28 @@
+[
+    {
+        "nomeProduto":"Abominable Hoodie",
+        "tamanho":"M",
+        "cor":"Red",
+        "quantidade":"2"
+    },
+
+    {
+        "nomeProduto":"Aero Daily Fitness Tee",
+        "tamanho":"XL",
+        "cor":"Brown",
+        "quantidade":"4"
+    },
+
+    {
+        "nomeProduto":"Argus All-Weather Tank",
+        "tamanho":"XS",
+        "cor":"Gray",
+        "quantidade":"6"
+    },
+    {
+        "nomeProduto":"Arcadio Gym Short",
+        "tamanho":"36",
+        "cor":"Black",
+        "quantidade":"4" 
+    }
+]

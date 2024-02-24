@@ -1,0 +1,9 @@
+Dados do aluno
+
+-Primeiro Nome: Pedro
+-Profissão: Estudante
+-Cidade: Jataí
+-O que faz nas horas vaga: Jogo jogos de tabuleiro,cartas e jogos digitais
+
+
+Arquivo editado 
