@@ -1,0 +1,14 @@
+{
+    "nome":"John",
+    "sobrenome":"Jhonson",
+    "empresa":"Cleber ferragens",
+    "pais":"Brasil",
+    "endereco1":"hehehe Street",
+    "endereco2":"4554",
+    "cidade":"aleatoriandia",
+    "estado":"São Paulo",
+    "cep":"01000100",
+    "telefone":"55995877845",
+    "email":"emiliando@correio.com.br",
+    "pagamento":"cod"
+}
