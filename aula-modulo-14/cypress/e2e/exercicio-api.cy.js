@@ -22,7 +22,7 @@ describe('Testes da Funcionalidade Usuários', () => {
 
 
   it('Deve cadastrar um usuário com sucesso', () => {
-    
+
     let email = `Jonas${Math.floor(Math.random() * 1000000)}@teste.com`
 
     cy.cadastrarUsuario("Fulano da Silva", email, "teste", "true").then(response => {
@@ -33,8 +33,6 @@ describe('Testes da Funcionalidade Usuários', () => {
 
 
   it('Deve validar um usuário com email inválido', () => {
-    //let email = `Jonas${Math.floor(Math.random() * 1000000)}@teste.com`
-
     cy.cadastrarUsuario("Fulano da Silva", "fulano@qa.com", "teste", "true").then(response => {
       expect(response.status).equal(400)
       expect(response.body.message).equal("Este email já está sendo usado")
@@ -59,7 +57,7 @@ describe('Testes da Funcionalidade Usuários', () => {
       }).should(response => {
         expect(response.status).equal(200)
         expect(response.body.message).equal("Registro alterado com sucesso")
-        
+
       })
     })
   });
@@ -76,5 +74,4 @@ describe('Testes da Funcionalidade Usuários', () => {
       })
     })
   });
-
 });
