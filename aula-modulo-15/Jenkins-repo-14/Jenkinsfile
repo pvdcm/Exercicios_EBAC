@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Setup') {
+            steps {
+                git branch: 'main', url: 'https://github.com/pvdcm/Exercicios_EBAC.git'
+                bat 'dir'
+                bat 'cd aula-modulo-14 && npm install'
+            }
+        }
+        stage('Test') {
+            steps {
+               bat '''set NO_COLOR=1
+npm start
+npm run cy:run'''
+            }
+        }
+    }
+}
